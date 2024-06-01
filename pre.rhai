@@ -43,8 +43,8 @@ fn get_port() {
   }
   return ports
 }
-
-variable::set("port", get_port());
+let port = get_port();
+variable::set("port", port);
 
 let lan_url = variable::prompt("What hostname would you like for your url?", user);
 
