@@ -8,7 +8,7 @@ modify if you'd like.
 
 ## Usage
 
-```shell
+```console
 cargo generate --git https://github.com/FreeMasen/home-project-template
 🤷   Project Name: test-project
 🔧   Destination: /home/user/test-project ...
