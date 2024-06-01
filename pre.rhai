@@ -1,4 +1,4 @@
-let year = 1999;
+let year = 2024;
 let crate_name = variable::get("project-name");
 let user = crate_name;
 user.replace("_", "");
