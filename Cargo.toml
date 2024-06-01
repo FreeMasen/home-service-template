@@ -1,0 +1,19 @@
+[package]
+name = "{{project-name}}"
+version = "0.1.0"
+authors = ["{{authors}}"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = { version = "0.7" }
+axum-extra = { version = "0.9", features = ["typed-header"] }
+futures = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+tempfile = "3.10"
+tokio = { version = "1.20", features = ["full"] }
+tokio-stream = "0.1"
+tower-http = {version ="0.5", features = ["fs", "trace"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
