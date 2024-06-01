@@ -1,3 +1,9 @@
 
 [hooks]
 pre = ["pre.rhai"]
+
+[template]
+ignore = [
+    "update_date.py",
+    ".github"
+]
